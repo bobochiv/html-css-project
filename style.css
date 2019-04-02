@@ -1,0 +1,294 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins';
+}
+.container{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    background-color: #3a3a3a;
+    color: white;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 999;
+}
+.nav > a{
+    padding: 50px;
+    
+}
+.bfr{
+    display: flex;
+    background-image: url(/Users/Bobo/Decode/html-css-project/imgs/bg.jpg);
+    background-size: cover; 
+    background-position: center;
+    min-height: 775px;
+    justify-content: center;
+    align-items: center;
+}   
+.hero{
+    display: flex;
+    object-position: center;
+    color: white;
+    z-index: 1;
+    border: 100px;
+    border: solid white 5px;
+    max-width: 70%;
+    max-height: 30%;
+}
+.falconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.dreambox{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.greybox{
+    background-color: #3e363675;
+    padding: 10px;
+}
+.falcon9{
+    font-size: 60px;
+}
+.dreams{
+    font-size: 40px;
+    padding: 10px;
+}
+.lorembox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: white dotted 2px;
+    padding: 10px;
+}
+.randomtext{
+    padding: 10px;
+}
+.randomtext2{
+    padding: 10px;
+}
+.featurebox{
+    display: flex;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.feature1{
+    max-height: 95%;
+    max-width: 25%;
+    border: 2px solid #3a3a3a94;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+.checkbox{
+    object-fit: fill;
+}
+.amazing1{
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+.amazingtext1{
+    font-size: small;
+    padding: 20px;
+    color: slategrey;
+}
+.getit{
+    padding: 20px;
+    width: 90%;
+    background-color: #3a3a3a;
+    color:white;
+    cursor: pointer;
+}
+.feature2{
+    max-height: 95%;
+    max-width: 25%;
+    border: 2px solid #3a3a3a94;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+.amazing2{
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+.amazingtext2{
+    font-size: small;
+    padding: 20px;
+    color: slategrey;
+}
+.sellit{
+    padding: 20px;
+    width: 90%;
+    background-color: #3a3a3a;
+    color:white;
+    cursor: pointer;
+}
+.feature3{
+    max-height: 95%;
+    max-width: 25%;
+    border: 2px solid #3a3a3a94;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+.amazing3{
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+.amazingtext3{
+    font-size: small;
+    padding: 20px;
+    color: slategrey;
+}
+.doit{
+    padding: 20px;
+    width: 90%;
+    background-color: #3a3a3a;
+    color:white;
+    cursor: pointer;
+}
+.checkbox{
+    height: 50px; 
+}
+.refresh{
+    height: 50px;
+}
+.fingerprint{
+    height: 50px;
+}
+.a{
+    text-decoration: none;
+}
+.blacktextbox{
+    background-color: #3a3a3a;
+    color: white;
+    height: 600px;
+}
+.cooltext{
+    font-size: 100px;
+    padding:60px;
+}
+.morecooltext{
+    font-size:40px;
+    padding:40px;
+}
+.gradienttextbox{
+    background-color: blue;
+    color: white;
+    height: 600px;
+    text-align: right;
+}
+.slicktext{
+    font-size: 100px;
+    padding:70px;
+}
+.moreslicktext{
+    font-size:40px;
+    padding:70px;
+}
+.coolcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 650px;
+    overflow: hidden;
+}
+.coolcontainer > img{
+    object-fit: cover;
+    width: 479px;
+    height: 350px;
+}
+.email{
+    max-height: 200px;
+    text-align: left;
+    margin: 7% auto;
+    width: 30%;
+    
+}
+.textbox{
+    width: 70%;
+    height: 30px;
+    border: solid 3px #3a3a3a47;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.sendbutton{
+    background-color: #3a3a3a47;
+    height: 38px;
+    width: 70px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #3a3a3a47;
+    
+}
+li{
+    list-style: none;
+    margin: 20% auto;
+}
+ul{
+    margin: auto auto;
+    padding: 30px;
+}
+.buttoncontain{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+/*.overlay1{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3a3a3a;
+}
+.teslacontainer:hover .overlay1{
+    opacity: 1; 
+}
+.textredcar{
+    color:white;
+    top: 50%;
+    left: 50;
+    text-align: center;
+}
+/
